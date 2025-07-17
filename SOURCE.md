@@ -57,16 +57,6 @@ Pass `-h` or `--help` for more information on supported CLI arguments.
 
 The main goal of generating prebuilt binaries is to strip the requirement of a local Python installation for users. For developers, there's very little benefit besides enabling dark mode support in the GUI. For development, simply use the OpenCore-Patcher-GUI.command file with a Python 3 installation.
 
-```sh
-# Install PyInstaller
-pip3 install pyinstaller
-# Move into project directory
-cd ~/Developer/OpenCore-Legacy-Patcher/
-# Create the pyinstaller based Application
-python3 Build-Project.command
-# Open build folder
-open ./dist/
-```
 
 Once done, you'll find the application generated at `./dist/OpenCore-Patcher.app`:
 
